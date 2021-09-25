@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![one](/css/public/one.png)
+![one](./public/one.png)
 
 ## Available Scripts
 
