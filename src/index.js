@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from "./page/Home.js";
+import DisplayTable from "./page/DisplayTable.js";
+import Again from "./page/Again.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Switch>
+        <Route path="/displaytable" strict>
+          <DisplayTable/>
+        </Route>
+        <Route path="/again" strict>
+          <Again/>
+        </Route>
+        <Route path="/" component={Home} strict/>
+      </Switch>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
