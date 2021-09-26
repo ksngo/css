@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
 ![one](./public/one.png)
+![float](./public/float.png)
+![grids1](./public/grids1.png)
+![grids2](./public/grids2.png)
+![grids3](./public/grids3.png)
+
 
 ## Available Scripts
 

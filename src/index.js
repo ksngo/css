@@ -6,18 +6,30 @@ import reportWebVitals from './reportWebVitals';
 import Home from "./page/Home.js";
 import DisplayTable from "./page/DisplayTable.js";
 import Again from "./page/Again.js";
+import Float from "./page/Float.js";
+import AttributeSelectors from "./page/AttributeSelectors";
+import Grids from "./page/Grids";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Switch>
+        <Route path="/grids" strict>
+          <Grids />
+        </Route>
+        <Route path="/attributeSelectors" strict>
+          <AttributeSelectors />
+        </Route>
         <Route path="/displaytable" strict>
-          <DisplayTable/>
+          <DisplayTable />
         </Route>
         <Route path="/again" strict>
-          <Again/>
+          <Again />
         </Route>
-        <Route path="/" component={Home} strict/>
+        <Route path="/float" strict>
+          <Float />
+        </Route>
+        <Route path="/" component={Home} strict />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,

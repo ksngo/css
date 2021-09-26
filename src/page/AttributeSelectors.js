@@ -1,10 +1,11 @@
 import Nav from "../components/Nav";
+import AttributeSelector from "../components/AttributeSelectors"
 
 function Page() {
   return (
     <>
       <Nav />
-      Again
+      <AttributeSelector />
     </>
   )
 }

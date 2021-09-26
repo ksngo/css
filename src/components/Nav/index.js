@@ -1,6 +1,6 @@
 import {
-  NavBar, 
-  NavLinks, 
+  NavBar,
+  NavLinks,
   NavLink,
   CustomLink
 } from "./navstyles.js";
@@ -8,13 +8,16 @@ import {
 function Nav() {
   return (
     <>
-    <NavBar>
-      <NavLinks>
-        <NavLink> <CustomLink to="/">Home</CustomLink> </NavLink>
-        <NavLink> <CustomLink to="/displaytable">display:table</CustomLink> </NavLink>
-        <NavLink> <CustomLink to="/again">Again</CustomLink></NavLink>
-      </NavLinks>
-    </NavBar>
+      <NavBar>
+        <NavLinks>
+          <NavLink> <CustomLink to="/">Home</CustomLink> </NavLink>
+          <NavLink> <CustomLink to="/displaytable">display:table</CustomLink> </NavLink>
+          <NavLink> <CustomLink to="/float">float</CustomLink></NavLink>
+          <NavLink> <CustomLink to="/attributeSelectors">attribute selectors</CustomLink></NavLink>
+          <NavLink> <CustomLink to="/grids">grids</CustomLink></NavLink>
+          <NavLink> <CustomLink to="/again">Again</CustomLink></NavLink>
+        </NavLinks>
+      </NavBar>
     </>
   )
 }
