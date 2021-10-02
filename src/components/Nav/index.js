@@ -2,10 +2,20 @@ import {
   NavBar,
   NavLinks,
   NavLink,
-  CustomLink
+  CustomLink,
+  NavBurger,
+  NavBurgerMenu
 } from "./navstyles.js";
 
+import { useRef } from "react";
+
 function Nav() {
+
+  const menuElement = useRef(); 
+
+  const showMenu = (event)=> {
+    menuElement.current.classList.toggle('is-open')
+  }
   return (
     <>
       <NavBar>
@@ -18,6 +28,14 @@ function Nav() {
           <NavLink> <CustomLink to="/position">position</CustomLink></NavLink>
           <NavLink> <CustomLink to="/again">Again</CustomLink></NavLink>
         </NavLinks>
+        <NavBurger onClick={showMenu}>hamburger</NavBurger>
+        <NavBurgerMenu ref={menuElement} >
+          <li>1. click to elementSelector.classList.toggle('is-open')</li>
+          <li>2. .is-open &#123; display:block &#125;</li>
+          <li>3. classList toggle will add/remove class 'is-open' to the elementSelector</li>
+          <li>4. with class 'is-open', the menu will be displayed</li>
+          <li>5. default without class 'is-open', display:none;</li>
+        </NavBurgerMenu>
       </NavBar>
     </>
   )
