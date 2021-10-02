@@ -9,6 +9,7 @@ import Again from "./page/Again.js";
 import Float from "./page/Float.js";
 import AttributeSelectors from "./page/AttributeSelectors";
 import Grids from "./page/Grids";
+import Position from "./page/Position";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -28,6 +29,9 @@ ReactDOM.render(
         </Route>
         <Route path="/float" strict>
           <Float />
+        </Route>
+        <Route path="/position" strict>
+          <Position />
         </Route>
         <Route path="/" component={Home} strict />
       </Switch>

@@ -5,6 +5,9 @@
 ![grids1](./public/grids1.png)
 ![grids2](./public/grids2.png)
 ![grids3](./public/grids3.png)
+![position1](./public/position1.png)
+![position2](./public/position2.png)
+![position3](./public/position3.png)
 
 
 ## Available Scripts
