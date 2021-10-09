@@ -9,6 +9,9 @@
 ![position2](./public/position2.png)
 ![position3](./public/position3.png)
 ![burger](./public/burger.png)
+![bg1](./public/bg1.png)
+![bg2](./public/bg2.png)
+![bg3](./public/bg3.png)
 
 
 ## Available Scripts

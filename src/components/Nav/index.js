@@ -26,6 +26,7 @@ function Nav() {
           <NavLink> <CustomLink to="/attributeSelectors">attribute selectors</CustomLink></NavLink>
           <NavLink> <CustomLink to="/grids">grids</CustomLink></NavLink>
           <NavLink> <CustomLink to="/position">position</CustomLink></NavLink>
+          <NavLink> <CustomLink to="/background">background</CustomLink></NavLink>
           <NavLink> <CustomLink to="/again">Again</CustomLink></NavLink>
         </NavLinks>
         <NavBurger onClick={showMenu}>hamburger</NavBurger>
