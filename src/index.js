@@ -11,6 +11,9 @@ import AttributeSelectors from "./page/AttributeSelectors";
 import Grids from "./page/Grids";
 import Position from "./page/Position";
 import Background from "./page/Background";
+import Transitions from "./page/Transitions";
+import Transform from "./page/Transform";
+import Animation from "./page/Animation";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -36,6 +39,15 @@ ReactDOM.render(
         </Route>
         <Route path="/background" strict>
           <Background />
+        </Route>
+        <Route path="/transitions" strict>
+          <Transitions />
+        </Route>
+        <Route path="/transform" strict>
+          <Transform/>
+        </Route>
+        <Route path="/animation" strict>
+          <Animation/>
         </Route>
         <Route path="/" component={Home} strict />
       </Switch>

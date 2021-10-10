@@ -12,6 +12,7 @@
 ![bg1](./public/bg1.png)
 ![bg2](./public/bg2.png)
 ![bg3](./public/bg3.png)
+![transitions](./public/transitions.png)
 
 
 ## Available Scripts
