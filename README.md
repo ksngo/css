@@ -13,6 +13,11 @@
 ![bg2](./public/bg2.png)
 ![bg3](./public/bg3.png)
 ![transitions](./public/transitions.png)
+![transitions2](./public/transition.gif)
+![transform](./public/transform.gif)
+![transform2](./public/transform2.gif)
+![transformpage1](./public/transformpage1.png)
+![transformpage2](./public/transformpage2.png)
 
 
 ## Available Scripts
