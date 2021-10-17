@@ -1,10 +1,9 @@
-# Getting Started with Create React App
-
 ![one](./public/one.png)
 ![float](./public/float.png)
 ![grids1](./public/grids1.png)
 ![grids2](./public/grids2.png)
 ![grids3](./public/grids3.png)
+![flexgrid](./public/flexgriddiff.png)
 ![position1](./public/position1.png)
 ![position2](./public/position2.png)
 ![position3](./public/position3.png)
@@ -18,6 +17,12 @@
 ![transform2](./public/transform2.gif)
 ![transformpage1](./public/transformpage1.png)
 ![transformpage2](./public/transformpage2.png)
+![animation](./public/animation.gif)
+
+resources:
+1. https://animista.net
+
+
 
 
 ## Available Scripts

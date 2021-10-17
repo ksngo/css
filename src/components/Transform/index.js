@@ -32,9 +32,6 @@ import {
   ImageHtml,
   ImageJs
 } from "./styles.js";
-import cardcss from "../../assets/cardcss.png";
-import cardhtml from "../../assets/cardhtml.png";
-import cardjs from "../../assets/cardjs.png";
 
 import { useRef } from "react";
 function Transform() {
