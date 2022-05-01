@@ -1,5 +1,7 @@
 ![one](./public/one.png)
 ![float](./public/float.png)
+![float1](./public/floatLeftOthers1.jpg)
+![float2](./public/floatLeftOthers2.jpg)
 ![grids1](./public/grids1.png)
 ![grids2](./public/grids2.png)
 ![grids3](./public/grids3.png)
